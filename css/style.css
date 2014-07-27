@@ -55,6 +55,10 @@ p {
 	font-size: .9em;
 }
 
+p a {
+	text-decoration: none;
+}
+
 #footer {
 	margin: 0 auto 30px auto;
 	text-align: center;
