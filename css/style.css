@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFF;
+	font-family: helvetica;
+	text-align: center;
+}
+
+h1 {
+	background: #111;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.15em;
+	padding: 10px 0;
+}
+
+h1 a:hover {
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: all .15s ease-in-out;
+}
+
+nav {
+	color: #111;
+	font-size: 1em;
+	padding: 25px;
+	margin: auto;
+	list-style: none;
+
+}
+
+nav a:hover {
+	color: #999;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	margin: 10px;
+	display: inline;
+}
+
+p {
+	margin-bottom: 25px;
+	font-size: .9em;
+}
+
+#footer {
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+
+#content {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	letter-spacing: 0.04em;
+	line-height: 1.3em;
+}
+
+#resume {
+	margin: 50px 0;
+}
+
+#about-photo {
+	height: 425px;
+	width: 425px;
+	margin: 0 auto 30px auto;
+}
+
+#about-text {
+	text-align: justify;
+	width: 638px;
+	margin: 30px auto 30px auto;
+}
+
+#portfolio {
+	margin-bottom: 50px;
+}
+
+.thumbs {
+	position: relative;
+	height: 290px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 3px 6px 3px;
+}
+
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+	height: 50px;
+	width: 100%;
+	background-color: #FFF;
+	position: absolute;
+	top: 290px;
+	transition: all .3s ease-in-out;
+}
+
+.thumbs:hover .hidden {
+	visibility: visible;
+	top: 240px;
+	opacity: 0.8;
+}
+
+.hidden h6 {
+	padding: 5px 5px 0 5px;
+	color: #000;
+	text-align: center;
+	font-size: 0.8em
+}
+
+#profiles img {
+	height: 30px;
+	width: 30px;
+}
+
+.birch {
+	text-align: center;
+	margin: 25px auto;
+}
