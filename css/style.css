@@ -85,6 +85,12 @@ input, select {
     vertical-align:middle;
 }
 
+/* Clearfix */
+.cf:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
 
 
 /* custom styling */
@@ -190,12 +196,23 @@ article {
 	margin-bottom: 50px;
 }
 
+#gallery {
+	max-width: 1200px;
+	margin: 0 auto 30px auto;
+}
+
+#gallery li {
+	height: auto;
+	width: 24.166667%;
+	display: block;
+	float: left;
+	padding: .416667%;
+}
+
 .thumbs {
+	padding: 0;
 	position: relative;
-	max-height: 290px;
-	display: inline-block;
 	overflow: hidden;
-	margin: 0 3px 6px 3px;
 }
 
 .hidden {
@@ -211,7 +228,7 @@ article {
 
 .thumbs:hover .hidden {
 	visibility: visible;
-	top: 240px;
+	top: 245px;
 	opacity: 0.8;
 }
 
@@ -228,6 +245,8 @@ article {
 }
 
 #birch {
+	max-height: 290px;
+	max-width: 388px;
 	text-align: center;
 	margin: 25px auto;
 }
