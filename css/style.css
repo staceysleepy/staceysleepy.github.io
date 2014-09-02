@@ -122,7 +122,7 @@ nav {
 }
 
 nav li {
-	padding: 25px 6%;
+	padding: 25px 5%;
 }
 
 nav a:hover {
@@ -158,7 +158,7 @@ footer {
 }
 
 main {
-	width: 90%;
+	padding: 0 5%;
 	margin: 0 auto;
 	text-align: left;
 	letter-spacing: 0.04em;
@@ -227,7 +227,7 @@ article {
 	width: 30px;
 }
 
-.birch {
+#birch {
 	text-align: center;
 	margin: 25px auto;
 }
