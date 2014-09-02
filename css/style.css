@@ -197,20 +197,19 @@ article {
 }
 
 #gallery {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto 30px auto;
 }
 
 #gallery li {
+	width: 32.222222%;
 	height: auto;
-	width: 24.166667%;
 	display: block;
 	float: left;
-	padding: .416667%;
+	padding: 0.555556%;
 }
 
 .thumbs {
-	padding: 0;
 	position: relative;
 	overflow: hidden;
 }
@@ -218,17 +217,17 @@ article {
 .hidden {
 	opacity: 0;
 	visibility: hidden;
-	height: 50px;
-	width: 100%;
+	height: 18.965517%;
+	width: 96.666667%;
 	background-color: #FFF;
 	position: absolute;
-	top: 290px;
+	top: 100%;
 	transition: all .3s ease-in-out;
 }
 
 .thumbs:hover .hidden {
 	visibility: visible;
-	top: 245px;
+	top: 81.034483%;
 	opacity: 0.8;
 }
 
@@ -249,4 +248,8 @@ article {
 	max-width: 388px;
 	text-align: center;
 	margin: 25px auto;
+}
+
+#birch .thumbs .hidden {
+	width: 100%;
 }
