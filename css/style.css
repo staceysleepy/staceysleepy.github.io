@@ -204,6 +204,7 @@ article {
 #gallery li {
 	width: 32.222222%;
 	height: auto;
+	max-height: 290px;
 	display: block;
 	float: left;
 	padding: 0.555556%;
