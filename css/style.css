@@ -111,16 +111,18 @@ h1 a:hover {
 h1 a, nav a {
 	text-decoration: none;
 	color: inherit;
-	transition: all .15s ease-in-out;
 }
 
 nav {
+	max-width: 382px;
 	color: #111;
 	font-size: 1em;
-	padding: 25px;
 	margin: auto;
 	list-style: none;
+}
 
+nav li {
+	padding: 25px 6%;
 }
 
 nav a:hover {
@@ -132,8 +134,13 @@ ul {
 }
 
 li {
-	margin: 10px;
-	display: inline;
+	padding: 10px;
+	display: inline-block;
+}
+
+.active {
+	font-weight: bold;
+	font-size: 1.2em;
 }
 
 p {
@@ -159,7 +166,7 @@ main {
 }
 
 #resume {
-	margin: 50px 0;
+	max-width: 800px;
 }
 
 #about-photo {
