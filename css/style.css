@@ -296,4 +296,11 @@ article {
 		font-size: 1em;
 		text-align: left;
 	}
+	#profiles li {
+		padding: 20px;
+	}
+	#profiles img {
+		height: 60px;
+		width: 60px;
+	}
 }
