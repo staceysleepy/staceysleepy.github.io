@@ -197,20 +197,19 @@ article {
 }
 
 #gallery {
-	max-width: 900px;
+	width: 900px;
 	margin: 0 auto 30px auto;
 }
 
 #gallery li {
-	width: 32.222222%;
-	height: auto;
-	max-height: 290px;
+	width: 290px;
 	display: block;
 	float: left;
 	padding: 0.555556%;
 }
 
 .thumbs {
+		height: 290px;
 	position: relative;
 	overflow: hidden;
 }
@@ -218,17 +217,17 @@ article {
 .hidden {
 	opacity: 0;
 	visibility: hidden;
-	height: 18.965517%;
-	width: 96.666667%;
+	height: 50px;
+	width: 290px;
 	background-color: #FFF;
 	position: absolute;
-	top: 100%;
+	top: 290px;
 	transition: all .3s ease-in-out;
 }
 
 .thumbs:hover .hidden {
 	visibility: visible;
-	top: 81.034483%;
+	top: 245px;
 	opacity: 0.8;
 }
 
@@ -253,4 +252,48 @@ article {
 
 #birch .thumbs .hidden {
 	width: 100%;
+}
+
+
+
+/* Media screens */
+
+/* smaller screen size */
+@media screen and (max-width: 1000px) {
+	#gallery {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	#gallery {
+		width: 300px;
+	}
+}
+
+/* iPhone */
+@media screen and (device-aspect-ratio: 40/71), (device-aspect-ratio: 2/3) {
+	h1 {
+		font-size: 4em;
+		padding: 20px 0;
+	}
+	nav {
+		max-width: 100%;
+		font-size: 2em;
+	}
+	nav li {
+		padding: 50px 5%;
+	}
+	#gallery {
+		width: 900px;
+	}
+	article {
+		max-width: inherit;
+		font-size: 2em;
+		line-height: 1.3em;
+	}
+	#resume {
+		font-size: 1em;
+		text-align: left;
+	}
 }
